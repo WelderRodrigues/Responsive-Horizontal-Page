@@ -20,20 +20,20 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #fffee1;
+  background: url("./image/setaDireita.png") no-repeat right;
 }
 
 .container section:nth-child(2) {
-  background: #e2fcff;
+  background: #d3d3d3;
 }
 
 .container section:nth-child(3) {
-  background: #d0eaff;
+  background: #c0c0c0;
 }
 
-.container section:nth-child(4) {
-  background: #fce8f4;
-}
+/* .container section:nth-child(4) {
+  background: url("./image/setaEsquerda.png") no-repeat left;
+} */
 
 .container section .content {
   max-width: 800px;
